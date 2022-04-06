@@ -15,7 +15,7 @@ body{
 }
 
 .form{
-    background-color: #ffffff90 ;
+    background-color: #ffffff97 ;
     margin: auto;
     width: 100%;
     max-width: 400px;
@@ -23,7 +23,6 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb (0 0 0 / 30%);
     text-align: center;
-    
 }
 .form__title{
     font-size: 2rem;
@@ -71,6 +70,7 @@ body{
     transform: translateY(10px);
     transition: transform .5s, color .3s;
     user-select: none;
+    opacity: .8;
 }
 .form__submit{
     color: #fff;
